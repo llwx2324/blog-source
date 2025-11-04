@@ -15,9 +15,11 @@ timezone: ''
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 # url: http://example.com
 # url: https://yehai.github.io
-url: https://llwx2324.github.io/blog
+# GitHub Pages: url: https://llwx2324.github.io/blog
+url: https://lwx-blog.pages.dev
 # root: /
-root: /blog/   # 注意加仓库名
+# GitHub Pages: root: /blog/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -49,8 +51,7 @@ external_link:
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
-# relative_link: false
-relative_link: true
+relative_link: false
 future: true
 syntax_highlighter: highlight.js
 highlight:
