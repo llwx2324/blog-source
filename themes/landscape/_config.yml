@@ -64,7 +64,7 @@ recent_posts_limits: 5
 google_analytics:
 gauges_analytics:
 # Favicon path
-favicon: /intro/css/images/L-logo-transparent.png
+favicon: /css/images/L-logo-transparent.png
 # Twitter ID
 twitter:
 fb_admins:
