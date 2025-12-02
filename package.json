@@ -4,8 +4,12 @@
   "private": true,
   "scripts": {
     "build": "hexo generate",
+    "build:github": "hexo generate --config _config.yml,_config.github.yml",
+    "build:cloudflare": "hexo generate --config _config.yml,_config.cloudflare.yml",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
+    "deploy:github": "hexo clean && hexo generate --config _config.yml,_config.github.yml && hexo deploy",
+    "deploy:cloudflare": "hexo clean && hexo generate --config _config.yml,_config.cloudflare.yml && hexo deploy",
     "server": "hexo server"
   },
   "hexo": {

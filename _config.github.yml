@@ -1,0 +1,6 @@
+# Hexo Configuration for GitHub Pages
+## Docs: https://hexo.io/docs/configuration.html
+
+# URL - GitHub Pages配置
+url: https://llwx2324.github.io/blog
+root: /blog/
