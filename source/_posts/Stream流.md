@@ -1,8 +1,6 @@
 ---
 title: Stream流
 date: 2025-10-19 10:00:00
-tags: [Java, Stream, 函数式编程]
-# categories: [编程技术]
 excerpt: Stream流的简要介绍。
 ---
 
